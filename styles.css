@@ -1,0 +1,99 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+/* Opdracht 2.1 */
+
+.one {
+    display: flex;
+    background-color: #7d60bb;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.one p {
+    color: white;
+    margin-left: 15px;
+}
+
+.one h3 {
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Opdracht 2.2 */
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+/* Opdracht 2.3 */
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.three ul {
+  display: inline-flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.three li {
+ display: inline-flex;
+    margin-right: 5px;
+
+}
+
+/* opdracht 2.4 */
+
+.loginInput {
+    background-color: #74e374;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.loginInput label{
+    display: flex;
+    flex-direction: column;
+}
+
+/* opdracht 2.5 */
+
+.five {
+    display: inline-flex;
+    background-color: #f3971d;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.five article {
+    padding: 0 20px;
+    color: white;
+    flex: 1 1 360px;
+}
+
+
+
+/* extra div toegevoegd zodat de content gecentered wordt! */
+
+.extraDiv {
+    display: flex;
+    justify-content: center;
+}
